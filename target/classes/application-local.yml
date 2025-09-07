@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring-ai-alibaba-qwq-chat-client-example
+  ai:
+    dashscope:
+      api-key: sk-0103ece78f5740c3b35882dff89bc7b5
+      chat:
+        options:
+          model: qwen-plus
+
+  datasource:
+    url: jdbc:postgresql://rm-cn-9ky4fe8780007fto.rwlb.rds.aliyuncs.com:5432/yu_ai_agent
+    username: my_user
+    password: Qq569945914@
