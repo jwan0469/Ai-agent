@@ -10,12 +10,14 @@
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
         </processorPath>
+        <module name="kai-ai-agent" />
         <module name="yu-ai-agent" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="kai-ai-agent" options="-parameters" />
       <module name="yu-ai-agent" options="-parameters" />
     </option>
   </component>
